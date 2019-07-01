@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 public class Currency {
     public static boolean checkUScurrency(String currencyUS) {
         String pattern = "\\$(\\d*)(\\.\\d{2})";
-
         Pattern p = Pattern.compile(pattern);
         Matcher m = p.matcher(currencyUS);//перевіряє чи співпадають символи один за одним
 

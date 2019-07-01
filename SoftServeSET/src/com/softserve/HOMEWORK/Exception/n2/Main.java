@@ -1,3 +1,5 @@
+/*
+
 package com.softserve.HOMEWORK.Exception.n2;
 
 import java.util.InputMismatchException;
@@ -43,3 +45,4 @@ public class Main {
 
 }
 
+*/

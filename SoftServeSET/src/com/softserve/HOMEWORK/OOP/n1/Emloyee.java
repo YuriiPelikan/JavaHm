@@ -71,7 +71,6 @@ class Employee {
     }
 
 
-
     public int bonuses() {
 
         int bonuses = (int) (salary() * 0.1);

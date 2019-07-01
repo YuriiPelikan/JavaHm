@@ -1,7 +1,0 @@
-<classes>
-    <class name="Test">
-        <methods>
-            <include name="Calc" />
-        </methods>
-    </class>
-</classes>

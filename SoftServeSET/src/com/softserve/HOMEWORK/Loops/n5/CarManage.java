@@ -34,7 +34,7 @@ public class CarManage {
             }
         }
 
-        System.out.println("Car orber by year:");
+        System.out.println("Car order by year:");
         for (int i = 0; i < cars.length; i++) {
             System.out.println(cars[i]);
         }

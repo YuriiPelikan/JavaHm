@@ -1,7 +1,5 @@
 package com.softserve.HOMEWORK.Exception.n1.n1;
 
-import com.softserve.HOMEWORK.Exception.n1.n1.Div;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -10,14 +8,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         try {
             System.out.println("Enter d1");
-            int d1 = scanner.nextInt();
+            double d1 = scanner.nextDouble();
             System.out.println("Enter d2");
-            int d2 = scanner.nextInt();
+            double d2 = scanner.nextDouble();
             System.out.println(Div.div(d1, d2));
         } catch (InputMismatchException a) {
             System.err.println("Not a number");
         } catch (ArithmeticException b) {
-            System.out.println(b.getMessage());
+            System.err.println(b.getMessage());
         }
     }
 }
