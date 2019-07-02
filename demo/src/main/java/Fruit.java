@@ -1,4 +1,12 @@
-public class Fruit {
+import java.beans.XMLDecoder;
+import java.beans.XMLEncoder;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.Serializable;
+import java.util.ArrayList;
+
+public class Fruit implements Serializable {
     private String name;
     private String color;
 
@@ -40,12 +48,10 @@ public class Fruit {
     @Override
     public String toString() {
         return "Fruit{" +
-                "name='" + name + '\'' +
-                ", color='" + color + '\'' +
+                "name='" + getName() + '\'' +
+                ", color='" + getColor() + '\'' +
                 '}';
     }
-
-
 }
 
 

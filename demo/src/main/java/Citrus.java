@@ -38,7 +38,7 @@ public class Citrus extends Fruit {
     @Override
     public String toString() {
         return "Citrus{" +
-                "vitamin=" + vitamin +
-                "} " + super.toString();
+                "name='" + getName() +
+                ", color='" + getColor() + "vitamin=" + getVitamin();
     }
 }
