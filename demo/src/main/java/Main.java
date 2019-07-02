@@ -10,27 +10,19 @@ public class Main {
     public static void main(String[] args) throws IOException {
         List<Fruit> fruits = new ArrayList<Fruit>();
 
-        fruits.add(new Fruit("apple", "red"));
-        fruits.add(new Fruit("gw", "yellow"));
-        fruits.add(new Fruit("hk", ""));
-        //fruit.Serialization(fruitsList);
-      /*  FileOutputStream fos = new FileOutputStream("fruits.xml");
-        XMLEncoder encoder = new XMLEncoder(fos);
-        encoder.writeObject(fruits);
-        encoder.close();
-        fos.close();
+        fruits.add(new Fruit("apple", "yellow"));
+        fruits.add(new Fruit("grape", "green"));
+        fruits.add(new Fruit("cherry", "red"));
 
-        for (Fruit fruit : fruits
-        ) {
-            fruit.print();
-        }*/
         do {
             System.out.println("1 - add Fruits ");
             System.out.println("2 - print Fruits");
-            System.out.println("3 - show Fruits with yellow color");
+            System.out.println("3 - show Fruits with certain color");
             System.out.println("4 - sort by name");
             System.out.println("5 - serializable in xml format");
             System.out.println("6 - deserializable in xml format");
+            System.out.println("7 - serializable in xml format sort by name");
+            System.out.println("8 - deserializable in xml format sort by name");
             System.out.println("0 - exit");
 
             int sc = scanner.nextInt();
@@ -51,7 +43,6 @@ public class Main {
                             Citrus citrus = new Citrus();
                             citrus.input();
                             fruits.add(citrus);
-
                         }
                         case 0:
                             System.out.println("Exit");
@@ -88,7 +79,16 @@ public class Main {
                 }
                 case 6: {
                     Tools fruit = new Tools();
-                    fruit.Deserialization();
+                    fruit.deserialization();
+                    break;
+                }
+                case 7: {
+                    Tools.saveSortFruitInXmlFile(fruits, "fruitsSort.xml");
+                    break;
+                }
+                case 8: {
+                    Tools fruit = new Tools();
+                    fruit.deserializationSort("fruitsSort.xml");
                     break;
                 }
                 case 0: {

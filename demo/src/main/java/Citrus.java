@@ -7,6 +7,11 @@ public class Citrus extends Fruit {
         this.vitamin = vitamin;
     }
 
+    public Citrus(String name, String color, int vitamin) {
+        super(name, color);
+        this.vitamin = vitamin;
+    }
+
     public Citrus() {
     }
 
@@ -21,11 +26,11 @@ public class Citrus extends Fruit {
     @Override
     public void input() {
         super.input();
-        System.out.println("Input vitamin C content: ");
+        System.out.println("Input vitaminC content: ");
         try {
             vitamin = Main.scanner.nextInt();
         } catch (InputMismatchException e) {
-            System.err.println("Enter only digits");
+            System.err.println("You can't enter letters. Enter only digits");
         }
     }
 

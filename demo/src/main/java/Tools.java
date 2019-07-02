@@ -15,10 +15,16 @@ public class Tools {
         fos.close();
     }
 
+    public static void saveSortFruitInXmlFile(List<Fruit> fruits, String path) throws IOException {
+        FileOutputStream fos = new FileOutputStream(path);
+        XMLEncoder encoder = new XMLEncoder(fos);
+        encoder.writeObject(fruits);
+        encoder.close();
+        fos.close();
+    }
+
     public static List<Fruit> fruitsByColor(List<Fruit> fruits, String color) {
-
         List<Fruit> newFruitsList = new ArrayList();
-
         for (Fruit fruit : fruits) {
             if (fruit.getColor().equals(color)) {
                 newFruitsList.add(fruit);
@@ -26,11 +32,22 @@ public class Tools {
         }
         return newFruitsList;
     }
-    public void Deserialization() {
+
+    public void deserialization() {
         try {
             XMLDecoder xmlDecoder = new XMLDecoder(new FileInputStream("fruits.xml"));
-            ArrayList<Fruit> arrayList = (ArrayList<Fruit>) xmlDecoder.readObject();
-            System.out.printf(arrayList.toString());
+            ArrayList<Fruit> fruits = (ArrayList<Fruit>) xmlDecoder.readObject();
+            System.out.printf(fruits.toString());
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+
+    public void deserializationSort(String path) {
+        try {
+            XMLDecoder xmlDecoder = new XMLDecoder(new FileInputStream(path));
+            ArrayList<Fruit> fruits = (ArrayList<Fruit>) xmlDecoder.readObject();
+            System.out.printf(fruits.toString());
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
@@ -38,6 +55,9 @@ public class Tools {
 
 
 }
+
+
+
 
 
 

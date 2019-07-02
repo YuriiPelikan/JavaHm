@@ -31,15 +31,5 @@
     </void>
    </object>
   </void>
-  <void method="add">
-   <object class="Fruit">
-    <void property="color">
-     <string>red</string>
-    </void>
-    <void property="name">
-     <string>orange</string>
-    </void>
-   </object>
-  </void>
  </object>
 </java>
