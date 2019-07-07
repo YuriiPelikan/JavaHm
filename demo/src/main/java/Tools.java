@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Tools {
@@ -53,9 +54,16 @@ public class Tools {
         }
     }
 
+    public List<Fruit> SortFruit(List<Fruit> fruits) {
+        Collections.sort(fruits, new SortFruit());
+        return fruits;
+    }
 
-
+    public List<Fruit> fruitsByColor(List<Fruit> expected) {
+        return expected;
+    }
 }
+
 
 
 
