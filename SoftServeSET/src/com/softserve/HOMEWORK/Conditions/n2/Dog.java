@@ -43,7 +43,7 @@ public class Dog {
 
         if ((dog1.getName() == (dog2.getName())) || (dog1.getName() == (dog3.getName()))) {
             System.out.println("Two dogs are presented with the same name");
-        } else if (dog2.getName() == (dog3.getName())) {
+        } else if ((dog2.getName() == (dog3.getName())) || (dog2.getName() == (dog1.getName()))) {
             System.out.println("Two dogs are presented with the same name");
         } else
             System.out.println("In list is not presented any dogs with two same name");

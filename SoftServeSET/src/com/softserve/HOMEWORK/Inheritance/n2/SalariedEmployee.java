@@ -2,7 +2,6 @@ package com.softserve.HOMEWORK.Inheritance.n2;
 
 public class SalariedEmployee extends Employee {
     private int federalTaxIdmember;
-
     private int fixedPeyment;
 
     public SalariedEmployee(String name, int federalTaxIdmember, int fixedPeyment) {

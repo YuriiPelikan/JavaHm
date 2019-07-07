@@ -2,7 +2,7 @@ package com.softserve.HOMEWORK.Conditions.n1;
 
 import java.util.Scanner;
 
-public class Main{
+public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -42,12 +42,9 @@ public class Main{
                 System.out.println("Your code of error 403");
                 break;
             default:
-                System.out.println("PLS...Enter correct error number");
+                System.out.println("Enter correct error number");
                 break;
         }
-
-
-
     }
 }
 

@@ -1,11 +1,8 @@
 package com.softserve.HOMEWORK.Inheritance.n2;
 
-public class ContractEmployee extends Employee{
-
-
+public class ContractEmployee extends Employee {
     private int rate;
     private int hours;
-
     private int socialSecurityNumber;
 
     public ContractEmployee(String name, int rate, int hours, int socialSecurityNumber) {
@@ -40,10 +37,7 @@ public class ContractEmployee extends Employee{
     }
 
     public int calculatePay() {
-
         int salary = rate * hours;
-
         return salary;
-
     }
 }

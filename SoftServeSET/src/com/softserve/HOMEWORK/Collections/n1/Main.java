@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
         Map<String, String> personMap = new HashMap<>();
 
         personMap.put("Karent", "Stepan");
@@ -21,13 +20,11 @@ public class Main {
         System.out.println(personMap);
 
         Set<Map.Entry<String, String>> set = personMap.entrySet();
-
         String firstName = personMap.get(0);
-
         String name = "Orest";
         List<String> keyByName = new LinkedList<>();
         for (Map.Entry<String, String> e : set) {
-            if (e.getValue() == name) {
+            if (e.getValue().equals(name)) {
                 keyByName.add(e.getKey());
             }
         }
@@ -36,7 +33,5 @@ public class Main {
         }
         System.out.println("After deleting Orest");
         System.out.println(personMap);
-
-
     }
 }

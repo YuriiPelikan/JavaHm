@@ -1,4 +1,5 @@
 package com.softserve.HOMEWORK.Inheritance.n1;
+
 public class FlyingBird extends Bird {
 
     public FlyingBird(boolean feathers, boolean layEggs) {

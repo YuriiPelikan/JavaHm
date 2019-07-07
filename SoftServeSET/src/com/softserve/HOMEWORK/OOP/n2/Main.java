@@ -3,7 +3,6 @@ package com.softserve.HOMEWORK.OOP.n2;
 import java.io.IOException;
 
 public class Main {
-
     public static void main(String[] args) throws IOException {
 
         Person person1 = new Person();
@@ -24,14 +23,8 @@ public class Main {
         person4.input();
         person4.output();
 
-
         person5.output();
-
         person5.changeName("Johnatan");
-
         person5.output();
-
-
     }
-
 }

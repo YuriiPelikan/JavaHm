@@ -8,7 +8,6 @@ public class Person {
     static int age;
 
     public Person() {
-        age = 2019 - birthYear;
     }
 
     public Person(String name, int birthYear) {
@@ -51,7 +50,6 @@ public class Person {
     }
 
     public String changeName(String newName) {
-
         name = newName;
         return name;
     }

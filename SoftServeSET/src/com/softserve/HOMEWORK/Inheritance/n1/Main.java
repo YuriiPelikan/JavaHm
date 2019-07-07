@@ -8,7 +8,6 @@ public class Main {
         br[2] = new Penguin(true, false);
         br[3] = new Chicken(true, false);
 
-
         for (int i = 0; i < br.length; i++) {
             System.out.println(br[i]);
             br[i].fly();

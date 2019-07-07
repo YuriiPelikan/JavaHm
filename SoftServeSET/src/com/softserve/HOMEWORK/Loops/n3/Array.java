@@ -24,8 +24,9 @@ public class Array {
             }
 
         }
-        System.out.println("Minimum = " + min);
-        System.out.println(imin + 1 + " place");
+        System.out.print("Minimum = " + min);
+        System.out.print("     ");
+        System.out.print(imin + 1 + " place");
     }
 }
 

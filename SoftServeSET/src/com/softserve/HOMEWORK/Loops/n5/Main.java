@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         Car car1 = new Car("Lada 2108", 1985, 10);
-        Car car2 = new Car("Mersedes", 2010, 200);
+        Car car2 = new Car("BMW", 2019, 600);
         Car car3 = new Car("Lamborghini", 2017, 700);
         Car car4 = new Car("Audi", 2010, 550);
 

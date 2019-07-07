@@ -6,7 +6,6 @@ public class Car {
     private int engine_capacity;
 
     public Car() {
-
     }
 
     public Car(String type, int year, int engine_capacity) {
@@ -38,6 +37,7 @@ public class Car {
     public void setEngine_capacity(int engine_capacity) {
         this.engine_capacity = engine_capacity;
     }
+
     @Override
     public String toString() {
         return "Car [type=" + type + ", year=" + year + ", engine_capacity=" + engine_capacity + "]";

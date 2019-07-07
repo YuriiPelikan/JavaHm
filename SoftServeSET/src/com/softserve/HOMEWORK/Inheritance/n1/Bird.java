@@ -7,8 +7,8 @@ public abstract class Bird {
     abstract void fly();
 
     public Bird(boolean feathers, boolean layEggs) {
-        this.feathers=feathers;
-        this.layEggs=layEggs;
+        this.feathers = feathers;
+        this.layEggs = layEggs;
     }
 
     public boolean isFeathers() {
@@ -26,6 +26,5 @@ public abstract class Bird {
     public void setLayEggs(boolean layEggs) {
         this.layEggs = layEggs;
     }
-
 
 }

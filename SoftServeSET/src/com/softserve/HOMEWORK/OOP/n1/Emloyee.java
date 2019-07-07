@@ -1,6 +1,5 @@
 package com.softserve.HOMEWORK.OOP.n1;
 
-
 class Employee {
     private String name;
     private int rate;
@@ -9,30 +8,22 @@ class Employee {
     static double totalSum = 0;
 
     public Employee() {
-        totalSum += (salary() + bonuses());
     }
 
     public Employee(int rate, int hours) {
-
         this.rate = rate;
         this.hours = hours;
-
-        totalSum += (salary() + bonuses());
     }
 
     public Employee(String name, int rate) {
         this.name = name;
         this.rate = rate;
-        totalSum += (salary() + bonuses());
-
     }
 
     public Employee(String name, int rate, int hours) {
-
         this.name = name;
         this.rate = rate;
         this.hours = hours;
-
         totalSum += (salary() + bonuses());
     }
 
@@ -61,7 +52,6 @@ class Employee {
     }
 
     public int salary() {
-
         return rate * hours;
     }
 
@@ -70,12 +60,8 @@ class Employee {
                 + " Bonuses = " + bonuses();
     }
 
-
     public int bonuses() {
-
         int bonuses = (int) (salary() * 0.1);
         return bonuses;
     }
-
-
 }

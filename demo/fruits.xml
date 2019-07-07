@@ -24,20 +24,20 @@
   <void method="add">
    <object class="Fruit">
     <void property="color">
-     <string>green</string>
+     <string>d</string>
     </void>
     <void property="name">
-     <string>grape</string>
+     <string>dw</string>
     </void>
    </object>
   </void>
   <void method="add">
    <object class="Fruit">
     <void property="color">
-     <string>red</string>
+     <string>green</string>
     </void>
     <void property="name">
-     <string>orange</string>
+     <string>grape</string>
     </void>
    </object>
   </void>

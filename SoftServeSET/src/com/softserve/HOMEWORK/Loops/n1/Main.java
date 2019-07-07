@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int[] month = { 28, 30, 31 };
+        int[] month = {28, 30, 31};
         System.out.println("Enter the number of month: ");
         Scanner sc = new Scanner(System.in);
         int first = sc.nextInt();

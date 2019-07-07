@@ -1,10 +1,4 @@
-import java.beans.XMLDecoder;
-import java.beans.XMLEncoder;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.Serializable;
-import java.util.ArrayList;
+import java.io.*;
 
 public class Fruit implements Serializable {
     private String name;
@@ -36,9 +30,9 @@ public class Fruit implements Serializable {
 
     public void input() {
         System.out.println("Input fruit name: ");
-        name = Main.scanner.next();
+        name = DemoJava.scanner.next();
         System.out.println("Input fruit color: ");
-        color = Main.scanner.next();
+        color = DemoJava.scanner.next();
     }
 
     public void print() {

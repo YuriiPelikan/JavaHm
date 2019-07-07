@@ -1,6 +1,5 @@
 package com.softserve.HOMEWORK.Inheritance.n2;
 
-
 public abstract class Employee implements CalculatePay {
     private int employeeld;
     private String name;

@@ -5,7 +5,6 @@ public class CarManage {
 
         System.out.println("Enter year to see the car");
         int year = Main.scanner.nextInt();
-
         boolean exist = true;
 
         for (int i = 0; i < cars.length; i++) {

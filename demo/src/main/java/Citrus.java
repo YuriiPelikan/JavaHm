@@ -28,7 +28,11 @@ public class Citrus extends Fruit {
         super.input();
         System.out.println("Input vitaminC content: ");
         try {
-            vitamin = Main.scanner.nextInt();
+            vitamin = DemoJava.scanner.nextInt();
+            do {
+                System.out.println("Enter vitamin >0 ");
+                vitamin = DemoJava.scanner.nextInt();
+            } while (vitamin < 0);
         } catch (InputMismatchException e) {
             System.err.println("You can't enter letters. Enter only digits");
         }

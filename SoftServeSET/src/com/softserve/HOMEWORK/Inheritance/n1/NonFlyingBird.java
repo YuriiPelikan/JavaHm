@@ -9,12 +9,10 @@ public class NonFlyingBird extends Bird {
     @Override
     void fly() {
         System.out.println("Bird can't fly");
-
     }
 
     @Override
     public String toString() {
         return "NonFlyingBird [fly()=" + isFeathers() + "]";
     }
-
 }
