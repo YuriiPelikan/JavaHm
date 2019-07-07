@@ -48,7 +48,6 @@ public class FirstTest {
         Thread.sleep(2000);
         //enter address of delivering
         driver.findElement(By.id("billing_company")).sendKeys("Naykova 6 14");
-        Thread.sleep(2000);
     }
 
 }
