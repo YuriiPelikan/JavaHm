@@ -1,31 +1,39 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.testng.AssertJUnit.assertEquals;
-
 public class TestTools {
     Tools tools = new Tools();
 
     @Test
-    public void testSortByName() {
+    public void sortFruitByNameTest() {
         //Arrange
-        List<Fruit> fruits = new ArrayList<>();
+        ArrayList<String> expectedName = new ArrayList<>();
+        ArrayList<String> actualName = new ArrayList<>();
+        ArrayList<Fruit> fruits = new ArrayList<>();
+
         fruits.add(new Fruit("apple", "yellow"));
         fruits.add(new Fruit("grape", "green"));
         fruits.add(new Fruit("cherry", "red"));
 
-        List<Fruit> expected = new ArrayList<>();
+        ArrayList<Fruit> expected = new ArrayList<>();
         expected.add(new Fruit("apple", "yellow"));
         expected.add(new Fruit("cherry", "red"));
         expected.add(new Fruit("grape", "green"));
 
         //Actual
         List<Fruit> actual = tools.SortFruit(expected);
+        for (Fruit f : expected) {
+            expectedName.add(f.getName());
+        }
+        for (Fruit f : actual) {
+            actualName.add(f.getName());
+        }
 
         //Assert
-        assertEquals(expected, actual);
+        Assert.assertEquals(expectedName, actualName);
     }
 
 
@@ -44,6 +52,5 @@ public class TestTools {
         assertEquals(expectedYellow, actual);
     }
 */
-
 
 }

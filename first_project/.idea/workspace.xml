@@ -18,11 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RedBox/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -45,8 +42,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="511" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -56,6 +53,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,11 +104,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -132,41 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest">
-    <configuration name="FirstTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RedBox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RedBox" />
-      <option name="MAIN_CLASS_NAME" value="RedBox.FirstTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RedBox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RedBox" />
-      <option name="MAIN_CLASS_NAME" value="RedBox.FirstTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.FirstTest.purchase">
     <configuration name="FirstTest.purchase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
@@ -185,7 +148,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.purchase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.purchase (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RedBox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RedBox" />
+      <option name="MAIN_CLASS_NAME" value="RedBox.FirstTest" />
+      <option name="METHOD_NAME" value="purchase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.purchase (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RedBox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RedBox" />
+      <option name="MAIN_CLASS_NAME" value="RedBox.FirstTest" />
+      <option name="METHOD_NAME" value="purchase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.purchase (5)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
@@ -223,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="TestNG.FirstTest.purchase" />
-        <item itemvalue="TestNG.FirstTest.purchase (2)" />
         <item itemvalue="TestNG.FirstTest.purchase (1)" />
-        <item itemvalue="TestNG.FirstTest (2)" />
+        <item itemvalue="TestNG.FirstTest.purchase (3)" />
+        <item itemvalue="TestNG.FirstTest.purchase (5)" />
+        <item itemvalue="TestNG.FirstTest.purchase (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,42 +244,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 34m 51s.xml">
+    <history-entry file="FirstTest_purchase_(5) - 2019.07.08 at 22h 09m 39s.xml">
+      <configuration name="FirstTest.purchase (5)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_purchase - 2019.07.08 at 22h 12m 03s.xml">
       <configuration name="FirstTest.purchase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 37m 14s.xml">
+    <history-entry file="FirstTest_purchase_(3) - 2019.07.08 at 22h 12m 57s.xml">
+      <configuration name="FirstTest.purchase (3)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_purchase - 2019.07.08 at 22h 14m 59s.xml">
       <configuration name="FirstTest.purchase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 42m 01s.xml">
+    <history-entry file="FirstTest_purchase - 2019.07.08 at 22h 26m 39s.xml">
       <configuration name="FirstTest.purchase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 44m 29s.xml">
+    <history-entry file="FirstTest_purchase - 2019.07.08 at 22h 32m 23s.xml">
       <configuration name="FirstTest.purchase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 47m 53s.xml">
+    <history-entry file="FirstTest_purchase_(1) - 2019.07.08 at 22h 33m 17s.xml">
+      <configuration name="FirstTest.purchase (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_purchase - 2019.07.08 at 22h 35m 17s.xml">
       <configuration name="FirstTest.purchase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 50m 07s.xml">
+    <history-entry file="FirstTest_purchase - 2019.07.08 at 22h 40m 17s.xml">
       <configuration name="FirstTest.purchase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 54m 58s.xml">
+    <history-entry file="FirstTest_purchase - 2019.07.08 at 22h 43m 35s.xml">
       <configuration name="FirstTest.purchase" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 15h 56m 58s.xml">
-      <configuration name="FirstTest.purchase" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_purchase - 2019.07.08 at 16h 05m 54s.xml">
-      <configuration name="FirstTest.purchase" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2019.07.08 at 16h 10m 52s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17246597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -289,7 +287,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05102041" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.05102041" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,13 +316,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/deliveryClub/FirstTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RedBox/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
