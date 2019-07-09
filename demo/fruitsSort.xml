@@ -22,6 +22,23 @@
    </object>
   </void>
   <void method="add">
+   <object class="Citrus" id="Citrus0">
+    <void class="Citrus" method="getField">
+     <string>vitamin</string>
+     <void method="set">
+      <object idref="Citrus0"/>
+      <int>32</int>
+     </void>
+    </void>
+    <void property="color">
+     <string>gg</string>
+    </void>
+    <void property="name">
+     <string>fee</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
    <object class="Fruit">
     <void property="color">
      <string>green</string>

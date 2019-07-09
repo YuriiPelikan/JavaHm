@@ -26,9 +26,7 @@ public class Citrus extends Fruit {
     @Override
     public void input() {
         super.input();
-        System.out.println("Input vitaminC content: ");
         try {
-            vitamin = DemoJava.scanner.nextInt();
             do {
                 System.out.println("Enter vitamin >0 ");
                 vitamin = DemoJava.scanner.nextInt();
