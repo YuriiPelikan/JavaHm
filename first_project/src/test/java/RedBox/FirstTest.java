@@ -27,7 +27,7 @@ public class FirstTest {
         String choose1 = driver.findElement(By.xpath("//a[@title=\"Бургери\"]")).getAttribute("title");
         Assert.assertTrue(choose1.equals("Бургери"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("scroll(0, 400);");
+        js.executeScript("scroll(0, 400)");
         Thread.sleep(2300);
 
         //add second burger to the basket
@@ -38,10 +38,10 @@ public class FirstTest {
         //go to the basket
         js.executeScript("scroll(350, 0);");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//span[.='Ваш кошик']")).click();
-        String choose3 = driver.findElement(By.xpath("//span[.='Ваш кошик']")).getText();
+        driver.findElement(By.xpath("//a[@href=\"/cart\"]")).click();
+        String choose3 = driver.findElement(By.xpath("//a[@href=\"/cart\"]")).getText();
         Assert.assertTrue(choose3.equals("Ваш кошик"));
-        js.executeScript("scroll(0, 350);");
+        js.executeScript("scroll(0, 350)");
         Thread.sleep(2000);
 
         //clear window where we choose count
@@ -54,7 +54,7 @@ public class FirstTest {
 
         //push button continue
         driver.findElement(By.xpath("//a[@href=\"/checkout\"]")).click();
-        js.executeScript("scroll(0, 500);");
+        js.executeScript("scroll(0, 500)");
         Thread.sleep(1500);
 
         //enter name

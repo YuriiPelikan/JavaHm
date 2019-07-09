@@ -6,8 +6,8 @@ public class Array {
 
         int sum1 = 0;
         int sum2 = 0;
-        boolean isFirst5Positive = true;
 
+        boolean isFirst5Positive = true;
         for (int i = 0; i < 5; i++) {
             if (numbers[i] > 0) {
                 sum1 += numbers[i];
