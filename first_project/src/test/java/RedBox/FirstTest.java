@@ -53,9 +53,7 @@ public class FirstTest {
         Thread.sleep(2500);
 
         //push button continue
-        driver.findElement(By.xpath("//a[(text())='Продовжити']")).click();
-        /*String choose5 = driver.findElement(By.xpath("//a[(text())='Продовжити']")).getText();
-        Assert.assertTrue(choose5.equals("Продовжити"));*/
+        driver.findElement(By.xpath("//a[@href=\"/checkout\"]")).click();
         js.executeScript("scroll(0, 500);");
         Thread.sleep(1500);
 
