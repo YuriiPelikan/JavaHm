@@ -10,9 +10,6 @@ public class TestTools {
     @Test
     public void sortFruitTest() {
         //Arrange
-        ArrayList<String> expectedName = new ArrayList<>();
-        ArrayList<String> actualName = new ArrayList<>();
-
         ArrayList<Fruit> fruits = new ArrayList<>();
         fruits.add(new Fruit("apple", "yellow"));
         fruits.add(new Fruit("grape", "green"));
@@ -22,40 +19,44 @@ public class TestTools {
         expected.add(new Fruit("apple", "yellow"));
         expected.add(new Fruit("cherry", "red"));
         expected.add(new Fruit("grape", "green"));
+
+        ArrayList<String> expectedString = new ArrayList<>();
+        ArrayList<String> actualString = new ArrayList<>();
         //Act
         List<Fruit> actual = tools.SortFruit(expected);
         for (Fruit fruit : expected) {
-            expectedName.add(fruit.getName());
+            expectedString.add(fruit.getName());
         }
         for (Fruit fruit : actual) {
-            actualName.add(fruit.getName());
+            actualString.add(fruit.getName());
         }
         //Assert
-        Assert.assertEquals(expectedName, actualName);
+        Assert.assertEquals(expectedString, actualString);
     }
 
 
     @Test
-    public void fruitsByColorTest() {
-        ArrayList<String> expectedColor = new ArrayList<>();
-        ArrayList<String> actualColor = new ArrayList<>();
-
+    public void getFruitsByColorTest() {
+        //Arrange
         ArrayList<Fruit> fruits = new ArrayList<>();
         fruits.add(new Fruit("apple", "yellow"));
         fruits.add(new Fruit("grape", "green"));
         fruits.add(new Fruit("cherry", "red"));
 
-        ArrayList<Fruit> expected = new ArrayList<>();
-        fruits.add(new Fruit("apple", "yellow"));
-        //Actual
-        List<Fruit> actual = tools.fruitsByColor(expected);
-        for (Fruit fruit2 : expected) {
-            expectedColor.add(fruit2.getColor());
+        ArrayList<Fruit> actual = new ArrayList<>();
+        actual.add(new Fruit("apple", "yellow"));
+
+        ArrayList<String> expectedString = new ArrayList<>();
+        ArrayList<String> actualString = new ArrayList<>();
+        //Act
+        List<Fruit> expected = tools.fruitsByColor(fruits, "yellow");
+        for (Fruit fruit : expected) {
+            expectedString.add(fruit.getColor());
         }
-        for (Fruit fruit2 : actual) {
-            actualColor.add(fruit2.getColor());
+        for (Fruit fruit : actual) {
+            actualString.add(fruit.getColor());
         }
         //Assert
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expectedString,actualString);
     }
 }

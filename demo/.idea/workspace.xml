@@ -14,20 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,10 +46,10 @@
         <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Citrus.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/SortFruit.java" />
         <option value="$PROJECT_DIR$/src/main/java/DemoJava.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTools.java" />
       </list>
     </option>
   </component>
@@ -87,8 +74,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +98,13 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -121,7 +115,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -144,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestTools.fruitsByColorTest">
+  <component name="RunManager" selected="TestNG.TestTools.sortFruitTest">
     <configuration name="DemoJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoJava" />
       <module name="demo" />
@@ -201,10 +195,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestTools.sortFruitTest" />
         <item itemvalue="TestNG.TestTools.fruitsByColorTest" />
         <item itemvalue="Application.DemoJava" />
         <item itemvalue="TestNG.TestTools" />
-        <item itemvalue="TestNG.TestTools.sortFruitTest" />
         <item itemvalue="TestNG.TestTools.sortFruitByNameTest" />
       </list>
     </recent_temporary>
@@ -223,12 +217,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTools_saveFruitInXmlFile - 2019.07.09 at 11h 02m 20s.xml">
-      <configuration name="TestTools.saveFruitInXmlFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestTools_testFruitsByColor - 2019.07.09 at 11h 05m 16s.xml">
-      <configuration name="TestTools.testFruitsByColor" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestTools - 2019.07.09 at 11h 15m 03s.xml">
       <configuration name="TestTools" configurationId="TestNG" />
     </history-entry>
@@ -253,11 +241,17 @@
     <history-entry file="TestTools_fruitsByColorTest - 2019.07.09 at 19h 04m 13s.xml">
       <configuration name="TestTools.fruitsByColorTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestTools_fruitsByColorTest - 2019.07.09 at 21h 06m 01s.xml">
+      <configuration name="TestTools.fruitsByColorTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestTools_sortFruitTest - 2019.07.09 at 21h 21m 39s.xml">
+      <configuration name="TestTools.sortFruitTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8134831" visible="true" weight="0.21255673" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8134831" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="1" sideWeight="0.18651685" side_tool="true" weight="0.15582451" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,7 +260,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3265306" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05102041" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,17 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DemoJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
@@ -412,20 +395,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFruit.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFruit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="162">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2158#2159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="675">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae8f92a-074b-4f18-809c-c52d2ab2f697" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftServeSET/com/softserve/HOMEWORK/Loops/n2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftServeSET/com/softserve/HOMEWORK/Loops/n2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/softserve/HOMEWORK/Loops/n2/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/softserve/HOMEWORK/Loops/n2/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/softserve/HOMEWORK/Loops/n3/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/softserve/HOMEWORK/Loops/n3/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/softserve/TASK/Collections/n2/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/softserve/TASK/Collections/n2/TestTask1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first_project/src/test/java/RedBox/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../first_project/src/test/java/RedBox/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first_project/target/test-classes/RedBox/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../first_project/target/test-classes/RedBox/FirstTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="9ae8f92a-074b-4f18-809c-c52d2ab2f697" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,32 +109,6 @@
               <item name="SoftServeSET" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftServeSET" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SoftServeSET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftServeSET" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftServeSET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftServeSET" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftServeSET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftServeSET" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="softserve" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftServeSET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftServeSET" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="softserve" type="462c0819:PsiDirectoryNode" />
-              <item name="HOMEWORK" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +118,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -359,7 +323,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.81628394" visible="true" weight="0.22087745" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.81628394" visible="true" weight="0.22390318" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.061261263" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22108844" />
@@ -659,20 +623,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/softserve/TASK/Collections/n2/TestTask1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/softserve/TASK/Collections/n2/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-994">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/softserve/TASK/Collections/n2/TestTask1.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/softserve/TASK/Collections/n2/Task1.java" />
     <entry file="file://$PROJECT_DIR$/src/com/softserve/TASK/Collections/n1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1026">
