@@ -14,30 +14,20 @@
   <void method="add">
    <object class="Fruit">
     <void property="color">
-     <string>red</string>
-    </void>
-    <void property="name">
-     <string>cherry</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="Fruit">
-    <void property="color">
-     <string>d</string>
-    </void>
-    <void property="name">
-     <string>dw</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="Fruit">
-    <void property="color">
      <string>green</string>
     </void>
     <void property="name">
      <string>grape</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Fruit">
+    <void property="color">
+     <string>red</string>
+    </void>
+    <void property="name">
+     <string>cherry</string>
     </void>
    </object>
   </void>

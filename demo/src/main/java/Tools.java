@@ -34,7 +34,7 @@ public class Tools {
         return newFruitsList;
     }
 
-    public void deserialization() {
+    public static void deserialization() {
         try {
             XMLDecoder xmlDecoder = new XMLDecoder(new FileInputStream("fruits.xml"));
             ArrayList<Fruit> fruits = (ArrayList<Fruit>) xmlDecoder.readObject();
@@ -44,7 +44,7 @@ public class Tools {
         }
     }
 
-    public void deserializationSort(String path) {
+    public static void deserializationSort(String path) {
         try {
             XMLDecoder xmlDecoder = new XMLDecoder(new FileInputStream(path));
             ArrayList<Fruit> fruits = (ArrayList<Fruit>) xmlDecoder.readObject();
@@ -54,7 +54,7 @@ public class Tools {
         }
     }
 
-    public List<Fruit> SortFruit(List<Fruit> fruits) {
+    public static List<Fruit> SortFruit(List<Fruit> fruits) {
         Collections.sort(fruits, new SortFruit());
         return fruits;
     }

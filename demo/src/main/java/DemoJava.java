@@ -20,7 +20,6 @@ public class DemoJava {
             System.out.println("6 - deserializable in xml format");
             System.out.println("7 - serializable in xml format sort by name");
             System.out.println("8 - deserializable in xml format sort by name");
-            System.out.println("0 - exit");
             try {
                 int sc = scanner.nextInt();
 
@@ -31,13 +30,16 @@ public class DemoJava {
                         System.out.println("0 - exit");
                         int sn = scanner.nextInt();
                         switch (sn) {
+                            //add fruit or citrus
                             case 1: {
+                                //add fruit
                                 Fruit fruit = new Fruit();
                                 fruit.input();
                                 fruits.add(fruit);
                                 break;
                             }
                             case 2: {
+                                //add citrus
                                 Citrus citrus = new Citrus();
                                 citrus.input();
                                 fruits.add(citrus);
@@ -49,6 +51,7 @@ public class DemoJava {
                         break;
                     }
                     case 2: {
+                        //show all fruits in list
                         for (Fruit f : fruits) {
                             System.out.println("All fruits in list:");
                             f.print();
@@ -56,42 +59,46 @@ public class DemoJava {
                         break;
                     }
                     case 3: {
+                        //show fruits with entered color
                         System.out.println("Enter color: ");
                         String color = scanner.next();
                         List<Fruit> listFruitsByColor = Tools.fruitsByColor(fruits, color);
-                        for (Fruit f : listFruitsByColor) {
-                            f.print();
+                        for (Fruit fr : listFruitsByColor) {
+                            fr.print();
                         }
                         break;
                     }
                     case 4: {
+                        //sort fruits by name
                         System.out.println("Sort by name");
                         Collections.sort(fruits, new SortFruit());
                         System.out.println(fruits);
                     }
                     case 5: {
+                        //serialization
                         Tools.saveFruitInXmlFile(fruits);
-                        System.out.println("Fruits save in .xml file:");
+                        System.out.println("Fruits save in .xml");
                         break;
-
                     }
                     case 6: {
-                        Tools fruit = new Tools();
-                        fruit.deserialization();
+                        //deserialization
+                        Tools.deserialization();
                         break;
                     }
                     case 7: {
+                        //serialization sort
+                        Tools.SortFruit(fruits);
                         Tools.saveSortFruitInXmlFile(fruits, "fruitsSort.xml");
                         break;
                     }
                     case 8: {
-                        Tools fruit = new Tools();
-                        fruit.deserializationSort("fruitsSort.xml");
+                        //deserialization sort
+                        Tools.SortFruit(fruits);
+                        Tools.deserializationSort("fruitsSort.xml");
                         break;
                     }
-                    case 0: {
-                        System.out.println("exit");
-                        break;
+                    default: {
+                        System.out.println("You enter incorrect number");
                     }
                 }
             } catch (InputMismatchException e) {
